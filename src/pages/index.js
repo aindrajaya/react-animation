@@ -8,11 +8,12 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <div className="Hero">
-      <div className="HeroGroup"/>
+      <div className="HeroGroup">
+        <h1>Learn to Design and Code React Apps</h1>
+        <p>Welcome to your new Gatsby site annaasas.</p>
+        <Link to="/page-2/">Go to page 2</Link>
+      </div>
     </div>
-    <h1>Learn to Design and Code React Apps</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
