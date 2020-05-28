@@ -49,11 +49,28 @@ const IndexPage = () => (
     </div>
     <div className="Cards">
         <h2>11 Courses, more coming</h2>
-        <Card 
-          title="React for Designers"
-          text="12 sections"
-          image={wall1}
-        />
+        <div className="CardGroup">
+          <Card 
+            title="React for Designers"
+            text="12 sections"
+            image={wall1}
+          />
+          <Card 
+            title="Design System"
+            text="10 sections"
+            image={wall3}
+          />
+          <Card 
+            title="Sound Design"
+            text="5 sections"
+            image={wall3}
+          />
+          <Card 
+            title="ARKit 2"
+            text="10 sections"
+            image={wall1}
+          />
+        </div>
       </div>
   </Layout>
 )
